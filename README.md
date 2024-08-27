@@ -1,6 +1,6 @@
 # Measures_of_Central_Tendency[ Mean, Median, Mode]
 
-# Tech Stack : Computational Statistics.
+# Subject : Computational Statistics.
 # Language : Java Programming.
 # Compiler : Eclipse.
 
