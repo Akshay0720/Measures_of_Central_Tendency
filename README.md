@@ -1,4 +1,8 @@
-# Measures_of_Central_Tendency[ Mean, Median, Mode].......
+# Measures_of_Central_Tendency[ Mean, Median, Mode]
+
+# Tech Stack : Computational Statistics.
+# Language : Java Programming.
+# Compiler : Eclipse.
 
 So in this files you can see the Diffrent types of Measures_of_Central_Tendency Example 
 
