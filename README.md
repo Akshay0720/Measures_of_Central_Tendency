@@ -19,7 +19,7 @@ III) Finding the Mean Using the Contiounes Distribution Data [ when Class and  F
 
 ------------------------------------------------------------------------------------------------------------------------------
 
-# 2) the First Mean_Examples file Contain the 3 Examples of Finding the Mean...
+# 2) the Second Median_Examples file Contain the 3 Examples of Finding the Median...
 
 I) Finding the Median Using the Listed Items Data [ Data Items are Given].
 
@@ -29,7 +29,7 @@ III) Finding the Median Using the Contiounes Distribution Data [ when Class and 
 
 ------------------------------------------------------------------------------------------------------------------------------
 
-# 3) the First Mean_Examples file Contain the 3 Examples of Finding the Mean...
+# 3) the Third Mode_Examples file Contain the 3 Examples of Finding the Mode...
 
 I) Finding the Mode Using the Listed Items Data [ Data Items are Given].
 
