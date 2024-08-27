@@ -1,0 +1,124 @@
+# Type 1 Example of Listed Items
+
+public class Mean_type_1 {
+
+	public static void main(String[] args) {
+		
+		 int sum = 0;
+	     int mean = 0;
+	    int a[]={222,236,242,242,236,238,230,248,249,247};  
+	    
+	 int count = a.length;
+	   
+	    for(int i=0;i<a.length;i++){
+	    
+	    sum = sum + a[i];
+	   
+	    }
+	   System.out.println("The total sum of all wages are : "+sum);
+	    System.out.println("The total no of elements in the array are : "+count);
+	   
+	   mean  = sum / count;
+	   System.out.println("and the mean value of these wages is : "+mean+" Units");
+	}
+
+}
+----------------------------
+Output is : 
+The total sum of all wages are : 2390
+The total no of elements in the array are : 10
+and the mean value of these wages is : 239 Units
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+# Type 2 Example of Discreat Distribution
+
+public class Mean_type_2 {
+
+	public static void main(String[] args) {
+		int sum = 0;
+        int total = 0;
+        
+        int mean_value = 0;
+        int a1[]={210,215,220,225,230,235,240,245};
+        int a2[]={5,15,19,20,14,12,6,2};
+
+        for(int i=0;i<a1.length;i++){
+
+            a1[i] = a1[i] * a2[i];
+        }
+
+        for(int i=0;i<a1.length;i++){
+
+        System.out.println(a1[i]+" ");
+    }
+        for(int i=0;i<a1.length;i++){
+        	
+       sum = sum+a1[i];
+        }
+        System.out.println("The Sum of Fixi is :"+sum);
+
+        for(int i=0;i<a2.length;i++){
+
+            total = total + a2[i];
+        }
+        System.out.println("the Total Sum of Xi is: "+total);
+
+        System.out.println("You can Find the Mean By Using total of FiXi / by total of Fi");
+
+        mean_value = sum / total;
+
+        System.out.println("The Type 2 Mean Value answer is : "+mean_value+" Unites");
+
+	}
+
+}
+
+-----------------------------------------
+Output is :
+1050 
+3225 
+4180 
+4500 
+3220 
+2820 
+1440 
+490 
+The Sum of Fixi is :20925
+the Total Sum of Xi is: 93
+You can Find the Mean By Using total of FiXi / by total of Fi
+The Type 2 Mean Value answer is : 225 Unites
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Type 3 Example of Continues Distribution
+
+public class Mean_type_3 {
+
+	public static void main(String[] args) {
+		
+		        int[] midpoints = {5, 15, 25, 35, 45, 55, 65};
+		        
+		        int[] students = {5, 11, 17, 18, 13, 5, 2};
+
+		        int totalMarks = 0;
+		        int totalStudents = 0;
+
+		        for (int i = 0; i < midpoints.length; i++) {
+		            totalMarks += midpoints[i] * students[i];
+		            totalStudents += students[i];
+		        }
+
+		        double mean = (double) totalMarks / totalStudents;
+
+		        // Step 6: Print the result
+		        System.out.println("Mean marks: " + mean);
+		  
+	}
+
+}
+
+----------------------------
+Output is =
+Mean marks: 31.47887323943662
+
